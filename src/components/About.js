@@ -14,8 +14,7 @@ function About(props) {
         {/* <Links /> */}
       </div>
     );
-  }
-  if (!props.bio || props.bio === "") {
+  } else if (!props.bio || props.bio === "") {
     return (
       <div id="about">
         <h2>About Me</h2>
